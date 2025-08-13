@@ -1,0 +1,92 @@
+[
+  {
+    "id": "p1",
+    "title": "Auriculares Bluetooth Over-Ear Noise Cancelling",
+    "price": 79999,
+    "rating": 4.7,
+    "reviews": 1421,
+    "category": "Tecnología",
+    "categorySlug": "tecnologia",
+    "images": [
+      "assets/prod-headphones.svg",
+      "assets/prod-headphones-2.svg",
+      "assets/prod-headphones-3.svg"
+    ],
+    "description": "Sonido de alta fidelidad, cancelación activa de ruido y batería de 40 horas."
+  },
+  {
+    "id": "p2",
+    "title": "Smart TV 50\" 4K UHD con HDR y Streaming",
+    "price": 499999,
+    "rating": 4.5,
+    "reviews": 862,
+    "category": "Tecnología",
+    "categorySlug": "tecnologia",
+    "images": [
+      "assets/prod-tv.svg",
+      "assets/prod-tv-2.svg",
+      "assets/prod-tv-3.svg"
+    ],
+    "description": "Disfrutá de tus series y pelis favoritas en 4K con control por voz."
+  },
+  {
+    "id": "p3",
+    "title": "Zapatillas Running ProLight 3",
+    "price": 65999,
+    "rating": 4.4,
+    "reviews": 344,
+    "category": "Moda",
+    "categorySlug": "moda",
+    "images": [
+      "assets/prod-shoes.svg",
+      "assets/prod-shoes-2.svg",
+      "assets/prod-shoes-3.svg"
+    ],
+    "description": "Ligereza, amortiguación y agarre para tus entrenamientos diarios."
+  },
+  {
+    "id": "p4",
+    "title": "Cafetera Espresso Automática con Espumador",
+    "price": 199999,
+    "rating": 4.6,
+    "reviews": 518,
+    "category": "Hogar",
+    "categorySlug": "hogar",
+    "images": [
+      "assets/prod-coffee.svg",
+      "assets/prod-coffee-2.svg",
+      "assets/prod-coffee-3.svg"
+    ],
+    "description": "Prepará espresso y capuccinos perfectos en casa con un toque."
+  },
+  {
+    "id": "p5",
+    "title": "Silla Ergonómica Gamer con Apoya Brazos 4D",
+    "price": 149999,
+    "rating": 4.3,
+    "reviews": 275,
+    "category": "Hogar",
+    "categorySlug": "hogar",
+    "images": [
+      "assets/prod-chair.svg",
+      "assets/prod-chair-2.svg",
+      "assets/prod-chair-3.svg"
+    ],
+    "description": "Soporte lumbar y reclinación para sesiones largas de trabajo o juego."
+  },
+  {
+    "id": "p6",
+    "title": "Teléfono Inteligente 128GB AMOLED 120Hz",
+    "price": 379999,
+    "rating": 4.5,
+    "reviews": 2103,
+    "category": "Tecnología",
+    "categorySlug": "tecnologia",
+    "images": [
+      "assets/prod-phone.svg",
+      "assets/prod-phone-2.svg",
+      "assets/prod-phone-3.svg"
+    ],
+    "description": "Pantalla fluida, gran cámara y batería para todo el día."
+  }
+]

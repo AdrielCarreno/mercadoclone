@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercado Clone</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="assets/favicon.svg" />
+</head>
+<body>
+  <header class="ml-header">
+    <div class="ml-topbar">
+      <a href="#/" class="ml-logo">
+        <img src="assets/logo.svg" alt="Mercado Clone" />
+      </a>
+      <form id="searchForm" class="ml-search">
+        <input id="searchInput" type="search" placeholder="Buscar productos, marcas y más…" aria-label="Buscar"/>
+        <button class="ml-btn" aria-label="Buscar">🔍</button>
+      </form>
+      <nav class="ml-actions" aria-label="Acciones">
+        <button id="cartBtn" class="ml-icon-btn" aria-label="Carrito">🛒<span id="cartCount" class="ml-badge">0</span></button>
+      </nav>
+    </div>
+    <nav class="ml-cats" aria-label="Categorías">
+      <a href="#/cat/tecnologia">Tecnología</a>
+      <a href="#/cat/hogar">Hogar</a>
+      <a href="#/cat/moda">Moda</a>
+      <a href="#/cat/deportes">Deportes</a>
+      <a href="#/cat/juguetes">Juguetes</a>
+      <a href="#/cat/auto">Autos y Motos</a>
+      <a href="#/cat/mascotas">Mascotas</a>
+      <a href="#/cat/salud">Salud</a>
+    </nav>
+  </header>
+
+  <main id="app" class="ml-app" aria-live="polite"></main>
+
+  <aside id="cartDrawer" class="ml-cart" aria-hidden="true">
+    <div class="ml-cart__head">
+      <h2>Carrito</h2>
+      <button id="cartClose" class="ml-icon-btn" aria-label="Cerrar">✖</button>
+    </div>
+    <div id="cartItems" class="ml-cart__items"></div>
+    <div class="ml-cart__footer">
+      <div class="ml-cart__total">Total: <strong id="cartTotal">$0</strong></div>
+      <button class="ml-btn ml-btn--primary" id="checkoutBtn">Continuar compra</button>
+    </div>
+  </aside>
+
+  <div id="overlay" class="ml-overlay" aria-hidden="true"></div>
+  <script defer src="app.js"></script>
+</body>
+</html>
